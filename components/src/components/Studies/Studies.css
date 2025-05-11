@@ -12,6 +12,7 @@
 @media (max-width: 1249px) {
     .studiesTitle {
         margin: 4rem 2rem 0rem;
-        font-size: 16px;
+        font-size: 18px;
+        font-weight: 700;
     }
 }
