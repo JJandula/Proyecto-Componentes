@@ -19,6 +19,7 @@ const Experience = generalDiv.innerHTML += `
         <p class="ExpDescription">${data.workExperience[0].description}</p>
         <ul class="expAtributes">
             <li>${data.skills[0]}</li>
+            <li>${data.skills[20]}</li>
             <li>${data.skills[1]}</li>
             <li>${data.skills[2]}</li>
             <li>${data.skills[3]}</li>
@@ -39,6 +40,7 @@ const Experience = generalDiv.innerHTML += `
         <p class="ExpDescription">${data.workExperience[1].description}</p>
         <ul class="expAtributes">
             <li>${data.skills[0]}</li>
+            <li>${data.skills[20]}</li>
             <li>${data.skills[1]}</li>
             <li>${data.skills[2]}</li>
             <li>${data.skills[3]}</li>

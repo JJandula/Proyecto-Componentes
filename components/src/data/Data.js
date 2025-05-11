@@ -70,7 +70,8 @@ const data = {
       "Sistemas Operativos",
       "XML",
       "JSON",
-      "Angular"
+      "Angular",
+      "WooCommerce"
     ],
     projects: [
       {
