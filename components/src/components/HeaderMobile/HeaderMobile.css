@@ -19,6 +19,7 @@
 
   .header-mobile > h1 {
     font-size: 38px;
+    margin-bottom: 0.5rem;
   }
 
   .intro-text {
