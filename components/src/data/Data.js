@@ -2,7 +2,7 @@
 const data = {
     name: "Jose Jandula",
     job: "FullStack Developer",
-    shortabout: "I build accessible, pixel-perfect digital experiences for the web.",
+    shortabout: "Creo experiencias digitales accesibles y perfectamente diseñadas para la web.",
     avatar:
       "https://i.pinimg.com/736x/8f/c2/ad/8fc2adfb17b261162bbd9a4af5239c64.jpg",
     aboutMe1:
