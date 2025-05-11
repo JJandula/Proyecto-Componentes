@@ -1,0 +1,33 @@
+.header-mobile {
+  display: none;
+}
+
+@media (max-width: 1249px) {
+  .header-mobile {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem 0rem;
+    margin-bottom: 0;
+  }
+  .header-container {
+    display: none;
+  }
+
+  .header-mobile > nav {
+    display: none;
+  }
+
+  .header-mobile > h1 {
+    font-size: 38px;
+  }
+
+  .intro-text {
+    margin-bottom: 2rem;
+  }
+
+  body > header {
+    max-width: 560px;
+    top: auto;
+    max-height: 35vh;
+  }
+}

@@ -1,0 +1,88 @@
+/* CSS COMPONENTE DIV */
+
+.experienceDiv {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  max-width: 650px;
+  margin-bottom: 3rem;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.7s ease-in-out;
+}
+
+.experienceDiv:hover {
+  background-color: var(--hover-back-color);
+  transform: scale(1.03);
+  box-shadow: 0 0 5px var(--hover-back-color), 0 0 15px var(--hover-back-color);
+}
+
+/* ------ */
+
+.yearsExp {
+  color: var(--secondary-color);
+  font-size: 12px;
+}
+
+.ExpDescription {
+  font-size: 12px;
+  color: var(--secondary-color);
+  max-width: 450px;
+}
+
+.expTitle {
+  max-width: 450px;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.expAtributes {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.expAtributes > li {
+  font-size: 10px;
+  background-color: var(--hover-back-color);
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.experienceTitle {
+  margin-bottom: var(--bottom-space);
+  margin-top: var(--top-space);
+}
+
+.yearsDiv {
+  min-width: 120px;
+}
+
+@media (max-width: 1249px) {
+  .experienceTitle {
+    margin: 4rem 2rem 0rem;
+    font-size: 16px;
+  }
+  .experienceDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+    margin: 2rem 4rem;
+  }
+  .ExpDescription {
+    max-width: none;
+  }
+  .generalDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .expAtributes{
+    justify-content: center;
+    gap: 0.5rem;
+  }
+}

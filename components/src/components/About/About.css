@@ -1,0 +1,45 @@
+
+
+.aboutDiv > p {
+    margin-bottom: 1.2rem;
+    font-size: 16px;
+    font-weight:200;
+    color: var(--secondary-color);
+    letter-spacing: 0.5px;
+}
+
+.aboutDiv > p > span {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.aboutDiv {
+    flex: 1;
+    padding-top: 6rem;
+    overflow-y: auto;
+    margin-bottom: var(--top-space);
+  }
+
+.aboutTitle {
+    margin-bottom: var(--bottom-space);
+    margin-top: 1rem;
+}
+
+#lastText {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1249px) {
+  .aboutDiv{
+    margin: 0rem 2rem;
+    padding-top: 0;
+  }
+  .aboutTitle{
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .aboutDiv > p {
+    text-align: center;
+  }
+}
