@@ -75,6 +75,7 @@ const Studies = generalDiv.innerHTML += `
             <li>${data.skills[11]}</li>
             <li>${data.skills[12]}</li>
             <li>${data.skills[16]}</li>
+            <li>${data.skills[21]}</li>
         </ul>
     </div>
 

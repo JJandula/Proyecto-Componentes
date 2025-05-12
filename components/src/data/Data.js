@@ -71,7 +71,8 @@ const data = {
       "XML",
       "JSON",
       "Angular",
-      "WooCommerce"
+      "WooCommerce",
+      "Hardware"
     ],
     projects: [
       {
