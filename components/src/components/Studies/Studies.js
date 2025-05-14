@@ -7,9 +7,11 @@ const generalDiv = document.querySelector(".generalDiv")
 
 const Studies = generalDiv.innerHTML += `
 
+<section id="studies"> 
+
 <h2 class="studiesTitle">STUDIES</h2>
 
-<div class="experienceDiv" id="studies">
+<div class="experienceDiv">
 
     <div class="yearsDiv">
         <p class="yearsExp">${data.education[0].startYear} - 2026</p>
@@ -80,6 +82,8 @@ const Studies = generalDiv.innerHTML += `
     </div>
 
 </div>
+
+</section>
 `;
 
 export default Studies

@@ -28,7 +28,7 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, options);
 
-document.querySelectorAll("div[id]").forEach((section) => {
+document.querySelectorAll("section[id]").forEach((section) => {
   observer.observe(section);
 });
 

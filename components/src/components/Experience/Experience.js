@@ -7,9 +7,13 @@ const generalDiv = document.querySelector(".generalDiv")
 
 const Experience = generalDiv.innerHTML += `
 
+<section id="experience"> 
+
 <h2 class="experienceTitle">EXPERIENCE</h2>
 
-<div class="experienceDiv" id="experience">
+
+
+<div class="experienceDiv" >
 
     <div class="yearsDiv">
         <p class="yearsExp">${data.workExperience[0].startDate} - ${data.workExperience[0].endDate}</p>
@@ -50,6 +54,8 @@ const Experience = generalDiv.innerHTML += `
     
 
 </div>
+
+</section>
 `;
 
 export default Experience

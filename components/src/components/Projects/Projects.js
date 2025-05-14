@@ -9,9 +9,11 @@ const generalDiv = document.querySelector(".generalDiv")
 
 const Projects = generalDiv.innerHTML += `
 
+<section id="projects">
+
 <h2 class="projectsTitle">PROJECTS</h2>
 
-<div class="experienceDiv" id="projects">
+<div class="experienceDiv">
 
     <div class="imgDiv">
         <img src="${data.projects[0].preview}" alt="${data.projects[0].title}">
@@ -80,6 +82,7 @@ const Projects = generalDiv.innerHTML += `
 
 </div>
 
+</section>
 
 `;
 
