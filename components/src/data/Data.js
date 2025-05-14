@@ -10,7 +10,7 @@ const data = {
     aboutMe2:
       "Me encanta explorar las últimas tecnologías y aplicar mis conocimientos para resolver problemas y <span>crear soluciones innovadoras</span>. A lo largo de mi formación, he adquirido experiencia práctica en una variedad de áreas, trabajando en proyectos que me han permitido mejorar tanto en el frontend como en el backend.",
     aboutMe3:
-      "Estoy <span>constantemente aprendiendo</span> y mejorando mis habilidades, y busco nuevas oportunidades para colaborar y seguir creciendo en el apasionante mundo del desarrollo de software",
+      "Estoy <span>constantemente aprendiendo</span> y mejorando mis habilidades, y busco nuevas oportunidades para colaborar y seguir creciendo en el apasionante mundo del desarrollo de software.",
 
     education: [
       {
